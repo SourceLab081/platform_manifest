@@ -21,8 +21,8 @@
           revision="17" />
 
   <!-- Codeberg -->
-  <remote name="codeberg"
-          fetch="https://codeberg.org/"
+  <remote name="codeberg_mirror"
+          fetch="https://github.com/SourceLab081"
           revision="17" />
 
   <!-- Forgejo -->
