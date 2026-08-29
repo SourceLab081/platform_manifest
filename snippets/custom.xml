@@ -55,7 +55,7 @@
 
   <!-- frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="ascp" />
-  <project path="frameworks/base" name="ascp/platform_frameworks_base" remote="codeberg" revision="17-codeberg" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="codeberg_mirror" revision="17-codeberg" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="ascp" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="ascp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ascp" />
@@ -97,7 +97,7 @@
   <!-- packages -->
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="ascp" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ascp" />
-  <project path="packages/apps/Settings" name="ascp-lfs/platform_packages_apps_Settings" remote="codeberg" revision="17-codeberg" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="codeberg_mirror" revision="17-codeberg" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="ascp" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="ascp" revision="sixteen-qpr2" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="ascp" />
@@ -144,13 +144,13 @@
   <project path="vendor/revanced" name="vendor_revanced" remote="ascp" />
 
   <!-- GMS -->
-  <project path="vendor/pixel/extract-utils" name="kenway214/proprietary_vendor_pixel_extract-utils" remote="codeberg" >
+  <project path="vendor/pixel/extract-utils" name="proprietary_vendor_pixel_extract-utils" remote="codeberg_mirror" >
     <linkfile src="extract-all.py" dest="vendor/pixel/extract-all.py" />
   </project>
-  <project path="vendor/pixel/clocks" name="kenway214/proprietary_vendor_pixel_clocks" remote="codeberg" />
+  <project path="vendor/pixel/clocks" name="proprietary_vendor_pixel_clocks" remote="codeberg_mirror" />
   <project path="vendor/pixel/gms" name="blackflag12kenway/proprietary_vendor_pixel_gms" remote="gitlab" clone-depth="1" />
-  <project path="vendor/pixel/prebuilts" name="kenway214/proprietary_vendor_pixel_prebuilts" remote="codeberg" />
-  <project path="vendor/pixel/sounds" name="kenway214/proprietary_vendor_pixel_sounds" remote="codeberg" />
-  <project path="vendor/pixel/launcher" name="kenway214/proprietary_vendor_pixel_launcher" remote="codeberg" />
+  <project path="vendor/pixel/prebuilts" name="proprietary_vendor_pixel_prebuilts" remote="codeberg_mirror" />
+  <project path="vendor/pixel/sounds" name="proprietary_vendor_pixel_sounds" remote="codeberg_mirror" />
+  <project path="vendor/pixel/launcher" name="proprietary_vendor_pixel_launcher" remote="codeberg_mirror" />
   <project path="vendor/pixel/themepicker" name="blackflag12kenway/proprietary_vendor_pixel_themepicker" remote="gitlab" />
 </manifest>
